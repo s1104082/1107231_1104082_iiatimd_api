@@ -4,7 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\API\RegisterController;
+// use App\Http\Controllers\API\RegisterController;
 use App\Http\Controllers\CrittersController;
 
 /*
@@ -17,10 +17,10 @@ use App\Http\Controllers\CrittersController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::post('register', [RegisterController::class, 'register']);
-Route::post('login', [RegisterController::class, 'login']);
+// Route::post('register', [RegisterController::class, 'register']);
+// Route::post('login', [RegisterController::class, 'login']);
 
-Route::post('critters', [CrittersController::class, 'index']);
+// Route::post('critters', [CrittersController::class, 'index']);
 
 
 
