@@ -9,13 +9,6 @@ use DateTimeInterface;
 class Critters extends Model
 {
     use HasFactory;
-//     protected function serializeDate(DateTimeInterface $date)
-// {
-//     return $date->format('Y-m-d');
-// }
 
-    // public function donated() {
-    //     return $this->hasMany('App\Models\Donated');
-    //   }
 
 }

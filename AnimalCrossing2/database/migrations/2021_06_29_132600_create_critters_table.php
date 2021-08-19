@@ -15,9 +15,9 @@ class CreateCrittersTable extends Migration
     {
         Schema::create('critters', function (Blueprint $table) {
             $table->increments('id');
-            $table->String('species');
             $table->String('name')->unique();
-            $table->String('critter_img_path'); 
+            $table->String('species');
+            $table->String('critter_image_path'); 
             $table->string('location');
             $table->String('price');
             $table->String('months_available');
